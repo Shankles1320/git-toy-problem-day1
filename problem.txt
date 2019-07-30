@@ -1,15 +1,18 @@
 Answer each question with the proper commands from the command line:
 
 #1  How do you know what directory you are currently in? (What command do you use?)
-
+Pwd
 
 #2  How do you remove a file?  Whats different about removing a folder?
 
+Rm -rf. rm will prompt to remove the directory where as a file it it will not. Rm -rf will remove the directory without prompt.
 
 #3  What command(s) can I use to make a new file?
-
+mkdir or touch
 
 #4  Given the following structure, in one command, how can I go to the "Content" folder from "Projects"
+
+Cd projects/courses/content
 
 Devmountain
     -> Projects [ YOU ARE HERE ]
@@ -22,3 +25,4 @@ Devmountain
             -> Grades.txt
 
 #5 Are you ready for the first day of javascript?!
+Yup
